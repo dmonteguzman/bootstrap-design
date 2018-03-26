@@ -1,0 +1,44 @@
+@font-face{
+    font-family: playfair;
+    src: url(fonts/PlayfairDisplay700.otf);
+}
+
+@font-face{
+    font-family: playfairb;
+    src: url(fonts/PlayfairDisplay-Bold.otf);
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 auto;
+    position: relative;
+}
+
+.milogo{
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.align{
+    font-family: playfairb;
+    font-size: 1.5em;
+    color: orangered;
+    padding-top: 5%;
+}
+
+.mipic{
+    height: 1em;
+    width: 1em;
+}
+
+.navig {
+    font-family: playfairb;
+    font-size: 1.25em;
+}
+
+.navigpart:hover{
+    background: rgba(0, 0, 0, 0);
+    color: orange;
+    box-shadow: inset 0 0 0 3px orange;
+}
